@@ -4,7 +4,7 @@ Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da 
 
 ![Multi zone Spring Apps architecture diagram](./images/multi-zone-spring-apps-reference-architecture.png)
 
-This sample also applies a proper reverse proxy configuration with [host name preservation](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). This means that cookies and AAD redirects will be working as expected.
+Este exemplo também aplica uma configuração de proxy reverso adequada com [preservação do nome do host](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). Isso significa que os cookies e os redirecionamentos do AAD funcionarão conforme o esperado.
 
 ## Features
 
