@@ -1,4 +1,4 @@
-# Azure Spring Apps multi zone reference architecture
+# Arquitetura de referência de várias zonas do Azure Spring Apps
 
 Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da arquitetura de referência do centro de arquitetura do Azure: [Arquitetura de referência do Azure Spring Apps de várias zonas (em breve)] (em breve). A arquitetura de referência e o exemplo mostram como executar uma carga de trabalho do Azure Spring Apps em uma configuração de várias zonas. Isso permite maior disponibilidade da carga de trabalho.
 
