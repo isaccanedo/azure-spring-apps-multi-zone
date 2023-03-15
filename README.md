@@ -10,7 +10,7 @@ Este exemplo também aplica uma configuração de proxy reverso adequada com [pr
 
 Esta estrutura de projeto fornece os seguintes recursos:
 
-- Multi-zone Spring Apps deployment with VNet integration
+- Implantação de aplicativos Spring multizona com integração VNet
 - Proper reverse proxy configuration for Application Gateway with a custom domain
 - Integration with Key Vault
 - Integration with a MySQL Flexible database
