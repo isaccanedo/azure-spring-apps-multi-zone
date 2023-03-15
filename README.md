@@ -6,9 +6,9 @@ Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da 
 
 Este exemplo também aplica uma configuração de proxy reverso adequada com [preservação do nome do host](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). Isso significa que os cookies e os redirecionamentos do AAD funcionarão conforme o esperado.
 
-## Características
+## Recursos
 
-This project framework provides the following features:
+Esta estrutura de projeto fornece os seguintes recursos:
 
 - Multi-zone Spring Apps deployment with VNet integration
 - Proper reverse proxy configuration for Application Gateway with a custom domain
