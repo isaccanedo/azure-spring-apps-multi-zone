@@ -6,7 +6,11 @@ Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da 
 
 Este exemplo também aplica uma configuração de proxy reverso adequada com [preservação do nome do host](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). Isso significa que os cookies e os redirecionamentos do AAD funcionarão conforme o esperado.
 
+<<<<<<< HEAD
 ## Recursos
+=======
+## Características
+>>>>>>> 5838b64 (Update README.md)
 
 Esta estrutura de projeto fornece os seguintes recursos:
 
