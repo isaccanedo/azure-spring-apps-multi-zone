@@ -19,7 +19,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 
 ### Pré-requisitos
 
-Before you begin, make sure you have the following available:
+Antes de começar, verifique se você tem o seguinte disponível:
 
 - Azure Subscription with Contributor access
 - Azure Active Directory access
