@@ -22,7 +22,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 Antes de começar, verifique se você tem o seguinte disponível:
 
 - Assinatura do Azure com acesso de Colaborador;
-- Azure Active Directory access
+- Acesso ao Azure Active Directory;
 - optional:
   - pfx certificate for your custom domain
   - GitHub Personal Access Token
