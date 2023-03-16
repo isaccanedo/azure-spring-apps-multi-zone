@@ -34,7 +34,7 @@ Para implantar a infraestrutura, você pode usar um ambiente instalado localment
 
 Ao executar localmente, certifique-se de ter o seguinte instalado:
 
-- Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- Última versão do [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 When using the dev container, either make sure you have [GitHub Codespaces](https://docs.github.com/codespaces/overview) enabled in your GitHub organization, or you can start up the dev container locally with the [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
