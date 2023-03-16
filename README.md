@@ -24,7 +24,7 @@ Antes de começar, verifique se você tem o seguinte disponível:
 - Assinatura do Azure com acesso de Colaborador;
 - Acesso ao Azure Active Directory;
 - opcional:
-  - pfx certificate for your custom domain
+  - certificado pfx para seu domínio personalizado;
   - GitHub Personal Access Token
 
 > [NOTE!]
