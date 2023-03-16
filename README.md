@@ -12,7 +12,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 
 - Implantação de aplicativos Spring multizona com integração VNet;
 - Configuração de proxy reverso adequada para gateway de aplicativo com um domínio personalizado;
-- Integration with Key Vault
+- Integração com Key Vault;
 - Integration with a MySQL Flexible database
 
 ## Getting Started
