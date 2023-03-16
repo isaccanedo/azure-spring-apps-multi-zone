@@ -15,7 +15,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 - Integração com Key Vault;
 - Integração com banco de dados MySQL Flexível.
 
-## Getting Started
+## Começando
 
 ### Prerequisites
 
