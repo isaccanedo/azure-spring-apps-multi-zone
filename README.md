@@ -25,7 +25,7 @@ Antes de começar, verifique se você tem o seguinte disponível:
 - Acesso ao Azure Active Directory;
 - opcional:
   - certificado pfx para seu domínio personalizado;
-  - GitHub Personal Access Token
+  - Token de acesso pessoal do GitHub.
 
 > [NOTE!]
 > There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
