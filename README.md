@@ -21,7 +21,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 
 Antes de começar, verifique se você tem o seguinte disponível:
 
-- Azure Subscription with Contributor access
+- Assinatura do Azure com acesso de Colaborador;
 - Azure Active Directory access
 - optional:
   - pfx certificate for your custom domain
