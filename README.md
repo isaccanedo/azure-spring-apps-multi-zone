@@ -37,7 +37,7 @@ Ao executar localmente, certifique-se de ter o seguinte instalado:
 - Última versão do [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Versão mais recente do [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 - 
-When using the dev container, either make sure you have [GitHub Codespaces](https://docs.github.com/codespaces/overview) enabled in your GitHub organization, or you can start up the dev container locally with the [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
+Ao usar o contêiner de desenvolvimento, verifique se você tem [GitHub Codespaces](https://docs.github.com/codespaces/overview) ativado em sua organização GitHub ou pode iniciar o contêiner de desenvolvimento localmente com o [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
 
 ### Installation
 
