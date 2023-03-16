@@ -13,30 +13,30 @@ Esta estrutura de projeto fornece os seguintes recursos:
 - Implantação de aplicativos Spring multizona com integração VNet;
 - Configuração de proxy reverso adequada para gateway de aplicativo com um domínio personalizado;
 - Integração com Key Vault;
-- Integration with a MySQL Flexible database
+- Integração com banco de dados MySQL Flexível.
 
-## Getting Started
+## Começando
 
-### Prerequisites
+### Pré-requisitos
 
-Before you begin, make sure you have the following available:
+Antes de começar, verifique se você tem o seguinte disponível:
 
-- Azure Subscription with Contributor access
-- Azure Active Directory access
-- optional:
-  - pfx certificate for your custom domain
-  - GitHub Personal Access Token
+- Assinatura do Azure com acesso de Colaborador;
+- Acesso ao Azure Active Directory;
+- opcional:
+  - certificado pfx para seu domínio personalizado;
+  - Token de acesso pessoal do GitHub.
 
-> [NOTE!]
-> There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
+> [OBSERVAÇÃO!]
+> Também existe a opção de instalar essa infraestrutura com um certificado autoassinado. Este certificado será gerado para você durante a implantação. No entanto, essa configuração deve ser usada apenas em cenários de teste.
 
-To deploy the infrastructure, you can either make use of a locally installed environment, or you can make use of a pre-configured dev container.
+Para implantar a infraestrutura, você pode usar um ambiente instalado localmente ou um contêiner de desenvolvimento pré-configurado.
 
-When executing locally, make sure you have the following installed:
+Ao executar localmente, certifique-se de ter o seguinte instalado:
 
-- Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-- Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
-
+- Última versão do [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- Versão mais recente do [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+- 
 When using the dev container, either make sure you have [GitHub Codespaces](https://docs.github.com/codespaces/overview) enabled in your GitHub organization, or you can start up the dev container locally with the [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
 
 ### Installation
