@@ -17,7 +17,7 @@ Esta estrutura de projeto fornece os seguintes recursos:
 
 ## Começando
 
-### Prerequisites
+### Pré-requisitos
 
 Before you begin, make sure you have the following available:
 
