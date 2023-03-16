@@ -32,7 +32,7 @@ Antes de começar, verifique se você tem o seguinte disponível:
 
 Para implantar a infraestrutura, você pode usar um ambiente instalado localmente ou um contêiner de desenvolvimento pré-configurado.
 
-When executing locally, make sure you have the following installed:
+Ao executar localmente, certifique-se de ter o seguinte instalado:
 
 - Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
