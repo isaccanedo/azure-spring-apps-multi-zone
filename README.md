@@ -28,7 +28,7 @@ Antes de começar, verifique se você tem o seguinte disponível:
   - Token de acesso pessoal do GitHub.
 
 > [OBSERVAÇÃO!]
-> There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
+> Também existe a opção de instalar essa infraestrutura com um certificado autoassinado. Este certificado será gerado para você durante a implantação. No entanto, essa configuração deve ser usada apenas em cenários de teste.
 
 To deploy the infrastructure, you can either make use of a locally installed environment, or you can make use of a pre-configured dev container.
 
