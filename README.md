@@ -39,7 +39,7 @@ Ao executar localmente, certifique-se de ter o seguinte instalado:
 - 
 Ao usar o contêiner de desenvolvimento, verifique se você tem [GitHub Codespaces](https://docs.github.com/codespaces/overview) ativado em sua organização GitHub ou pode iniciar o contêiner de desenvolvimento localmente com o [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
 
-### Installation
+### Instalação
 
 This sample can be set up in a test or a non-test setup.
 
