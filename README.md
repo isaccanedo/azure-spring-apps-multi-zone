@@ -46,7 +46,7 @@ Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
 - [test set up]: In this case the Git PAT token is optional and a self-signed certificate is used. Walkthrough of this setup is found in the [install-test.md](docs/install-test.md) file.
 - [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
 
-### What you need to know about this setup
+### O que você precisa saber sobre esta configuração
 
 More info on how the terraform templates are build and how they operate can be found in the [docs](docs) folder of this repository. Best starting point is the [maintf.md](docs/maintf.md) file.
 
