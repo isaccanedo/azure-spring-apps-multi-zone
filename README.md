@@ -48,7 +48,7 @@ Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
 
 ### O que você precisa saber sobre esta configuração
 
-More info on how the terraform templates are build and how they operate can be found in the [docs](docs) folder of this repository. Best starting point is the [maintf.md](docs/maintf.md) file.
+Mais informações sobre como os modelos de terraform são construídos e como eles operam podem ser encontrados na pasta [docs](docs) deste repositório. O melhor ponto de partida é o arquivo [maintf.md](docs/maintf.md).
 
 ### Coming up
 
