@@ -43,7 +43,7 @@ Ao usar o contêiner de desenvolvimento, verifique se você tem [GitHub Codespac
 
 Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
 
-- [test set up]: In this case the Git PAT token is optional and a self-signed certificate is used. Walkthrough of this setup is found in the [install-test.md](docs/install-test.md) file.
+- [configuração de teste]: neste caso, o token Git PAT é opcional e um certificado autoassinado é usado. O passo a passo desta configuração é encontrado no arquivo [install-test.md](docs/install-test.md).
 - [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
 
 ### O que você precisa saber sobre esta configuração
