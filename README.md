@@ -48,11 +48,11 @@ Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
 
 ### O que você precisa saber sobre esta configuração
 
-More info on how the terraform templates are build and how they operate can be found in the [docs](docs) folder of this repository. Best starting point is the [maintf.md](docs/maintf.md) file.
+Mais informações sobre como os modelos de terraform são construídos e como eles operam podem ser encontrados na pasta [docs](docs) deste repositório. O melhor ponto de partida é o arquivo [maintf.md](docs/maintf.md).
 
-### Coming up
+### Chegando
 
-We are working on improving this sample. The ideas we have on improving:
+Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhorar:
 
 - Create Bicep templates for the same setup (in progress)
 - Make the database interchangeable for other types of databases (Cosmos DB as a first candidate)
