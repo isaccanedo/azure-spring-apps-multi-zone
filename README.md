@@ -58,7 +58,7 @@ Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhora
 - Make the database interchangeable for other types of databases (Cosmos DB as a first candidate)
 - Currently the apps in Azure Spring Apps are based on the Spring Petclinic sample, these apps should be better configurable.
 
-## Resources
+## Recursos
 
 - [Azure Architecture Center: Multi-zone Azure Spring Apps reference architecture(coming up)](article coming up)
 - [Preserve the original HTTP host name between a reverse proxy and its back-end web application](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation)
