@@ -44,7 +44,7 @@ Ao usar o contêiner de desenvolvimento, verifique se você tem [GitHub Codespac
 Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
 
 - [configuração de teste]: neste caso, o token Git PAT é opcional e um certificado autoassinado é usado. O passo a passo desta configuração é encontrado no arquivo [install-test.md](docs/install-test.md).
-- [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
+- [configuração sem teste]: neste caso, o token Git PAT é obrigatório e um certificado pfx para seu domínio personalizado é usado. O passo a passo dessa configuração é encontrado no arquivo [install-prod.md](docs/install-prod.md).
 
 ### O que você precisa saber sobre esta configuração
 
@@ -60,6 +60,6 @@ Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhora
 
 ## Recursos
 
-- [Azure Architecture Center: Multi-zone Azure Spring Apps reference architecture(coming up)](article coming up)
+- [Centro de arquitetura do Azure: arquitetura de referência do Azure Spring Apps de várias zonas (em breve)](artigo em breve)
 - [Preserve the original HTTP host name between a reverse proxy and its back-end web application](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation)
 - A similar automated setup in multiple regions can be found in the [Azure Spring Apps multi region reference architecture](https://github.com/Azure-Samples/azure-spring-apps-multi-region) GitHub repository with more info in the [Deploy Azure Spring Apps to multiple regions](https://learn.microsoft.com/azure/architecture/reference-architectures/microservices/spring-apps-multi-region) architecture center article.
