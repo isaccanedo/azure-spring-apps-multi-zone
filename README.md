@@ -1,65 +1,65 @@
-# Arquitetura de referência de várias zonas do Azure Spring Apps
+# Azure Spring Apps multi zone reference architecture
 
 Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da arquitetura de referência do centro de arquitetura do Azure: [Arquitetura de referência do Azure Spring Apps de várias zonas (em breve)] (em breve). A arquitetura de referência e o exemplo mostram como executar uma carga de trabalho do Azure Spring Apps em uma configuração de várias zonas. Isso permite maior disponibilidade da carga de trabalho.
 
 ![Multi zone Spring Apps architecture diagram](./images/multi-zone-spring-apps-reference-architecture.png)
 
-Este exemplo também aplica uma configuração de proxy reverso adequada com [preservação do nome do host](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). Isso significa que os cookies e os redirecionamentos do AAD funcionarão conforme o esperado.
+This sample also applies a proper reverse proxy configuration with [host name preservation](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). This means that cookies and AAD redirects will be working as expected.
 
-## Recursos
+## Features
 
-Esta estrutura de projeto fornece os seguintes recursos:
+This project framework provides the following features:
 
-- Implantação de aplicativos Spring multizona com integração VNet;
-- Configuração de proxy reverso adequada para gateway de aplicativo com um domínio personalizado;
-- Integração com Key Vault;
-- Integração com banco de dados MySQL Flexível.
+- Multi-zone Spring Apps deployment with VNet integration
+- Proper reverse proxy configuration for Application Gateway with a custom domain
+- Integration with Key Vault
+- Integration with a MySQL Flexible database
 
-## Começando
+## Getting Started
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, verifique se você tem o seguinte disponível:
+Before you begin, make sure you have the following available:
 
-- Assinatura do Azure com acesso de Colaborador;
-- Acesso ao Azure Active Directory;
-- opcional:
-  - certificado pfx para seu domínio personalizado;
-  - Token de acesso pessoal do GitHub.
+- Azure Subscription with Contributor access
+- Azure Active Directory access
+- optional:
+  - pfx certificate for your custom domain
+  - GitHub Personal Access Token
 
-> [OBSERVAÇÃO!]
-> Também existe a opção de instalar essa infraestrutura com um certificado autoassinado. Este certificado será gerado para você durante a implantação. No entanto, essa configuração deve ser usada apenas em cenários de teste.
+> [NOTE!]
+> There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
 
-Para implantar a infraestrutura, você pode usar um ambiente instalado localmente ou um contêiner de desenvolvimento pré-configurado.
+To deploy the infrastructure, you can either make use of a locally installed environment, or you can make use of a pre-configured dev container.
 
-Ao executar localmente, certifique-se de ter o seguinte instalado:
+When executing locally, make sure you have the following installed:
 
-- Última versão do [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-- Versão mais recente do [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
-- 
-Ao usar o contêiner de desenvolvimento, verifique se você tem [GitHub Codespaces](https://docs.github.com/codespaces/overview) ativado em sua organização GitHub ou pode iniciar o contêiner de desenvolvimento localmente com o [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
+- Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
-### Instalação
+When using the dev container, either make sure you have [GitHub Codespaces](https://docs.github.com/codespaces/overview) enabled in your GitHub organization, or you can start up the dev container locally with the [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
 
-Esta amostra pode ser configurada em uma configuração de teste ou não-teste.
+### Installation
 
-- [configuração de teste]: neste caso, o token Git PAT é opcional e um certificado autoassinado é usado. O passo a passo desta configuração é encontrado no arquivo [install-test.md](docs/install-test.md).
-- [configuração sem teste]: neste caso, o token Git PAT é obrigatório e um certificado pfx para seu domínio personalizado é usado. O passo a passo dessa configuração é encontrado no arquivo [install-prod.md](docs/install-prod.md).
+This sample can be set up in a test or a non-test setup.
 
-### O que você precisa saber sobre esta configuração
+- [test set up]: In this case the Git PAT token is optional and a self-signed certificate is used. Walkthrough of this setup is found in the [install-test.md](docs/install-test.md) file.
+- [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
 
-Mais informações sobre como os modelos de terraform são construídos e como eles operam podem ser encontrados na pasta [docs](docs) deste repositório. O melhor ponto de partida é o arquivo [maintf.md](docs/maintf.md).
+### What you need to know about this setup
 
-### Chegando
+More info on how the terraform templates are build and how they operate can be found in the [docs](docs) folder of this repository. Best starting point is the [maintf.md](docs/maintf.md) file.
 
-Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhorar:
+### Coming up
+
+We are working on improving this sample. The ideas we have on improving:
 
 - Create Bicep templates for the same setup (in progress)
 - Make the database interchangeable for other types of databases (Cosmos DB as a first candidate)
 - Currently the apps in Azure Spring Apps are based on the Spring Petclinic sample, these apps should be better configurable.
 
-## Recursos
+## Resources
 
-- [Centro de arquitetura do Azure: arquitetura de referência do Azure Spring Apps de várias zonas (em breve)](artigo em breve)
+- [Azure Architecture Center: Multi-zone Azure Spring Apps reference architecture(coming up)](article coming up)
 - [Preserve the original HTTP host name between a reverse proxy and its back-end web application](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation)
--Uma configuração automatizada semelhante em várias regiões pode ser encontrada no repositório GitHub [Arquitetura de referência multiregional do Azure Spring Apps](https://github.com/Azure-Samples/azure-spring-apps-multi-region) com mais informações em o artigo do centro de arquitetura [Implantar aplicativos Azure Spring em várias regiões](https://learn.microsoft.com/azure/architecture/reference-architectures/microservices/spring-apps-multi-region).
+- A similar automated setup in multiple regions can be found in the [Azure Spring Apps multi region reference architecture](https://github.com/Azure-Samples/azure-spring-apps-multi-region) GitHub repository with more info in the [Deploy Azure Spring Apps to multiple regions](https://learn.microsoft.com/azure/architecture/reference-architectures/microservices/spring-apps-multi-region) architecture center article.
