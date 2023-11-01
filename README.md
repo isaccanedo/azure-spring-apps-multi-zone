@@ -15,19 +15,19 @@ Esta estrutura de projeto fornece os seguintes recursos:
 - Integration with Key Vault
 - Integration with a MySQL Flexible database
 
-## Getting Started
+## Começando
 
-### Prerequisites
+### Pré-requisitos
 
-Before you begin, make sure you have the following available:
+Antes de começar, certifique-se de ter o seguinte disponível:
 
-- Azure Subscription with Contributor access
-- Azure Active Directory access
-- optional:
-  - pfx certificate for your custom domain
-  - GitHub Personal Access Token
+- Assinatura do Azure com acesso de Colaborador
+- Acesso ao Azure Active Directory
+- opcional:
+   - certificado pfx para seu domínio personalizado
+   - Token de acesso pessoal do GitHub
 
-> [NOTE!]
+> [NOTA!]
 > There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
 
 To deploy the infrastructure, you can either make use of a locally installed environment, or you can make use of a pre-configured dev container.
