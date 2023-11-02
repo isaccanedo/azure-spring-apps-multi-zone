@@ -28,11 +28,11 @@ Antes de começar, certifique-se de ter o seguinte disponível:
    - Token de acesso pessoal do GitHub
 
 > [NOTA!]
-> There is also an option to install this infrastructure with a self-signed certificate. This certificate will be generated for you during the deployment. However, this setup should only be used in testing scenario's.
+> Também existe a opção de instalar esta infraestrutura com um certificado autoassinado. Este certificado será gerado para você durante a implantação. No entanto, esta configuração só deve ser usada em cenários de teste.
 
-To deploy the infrastructure, you can either make use of a locally installed environment, or you can make use of a pre-configured dev container.
+Para implantar a infraestrutura, você pode usar um ambiente instalado localmente ou um contêiner de desenvolvimento pré-configurado.
 
-When executing locally, make sure you have the following installed:
+Ao executar localmente, certifique-se de ter o seguinte instalado:
 
 - Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
