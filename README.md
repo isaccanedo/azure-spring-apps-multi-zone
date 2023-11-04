@@ -37,11 +37,11 @@ Ao executar localmente, certifique-se de ter o seguinte instalado:
 - Latest version of [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - Latest version of [AZ CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
-When using the dev container, either make sure you have [GitHub Codespaces](https://docs.github.com/codespaces/overview) enabled in your GitHub organization, or you can start up the dev container locally with the [Visual Studio Code Remote Containers](https://code.visualstudio.com/docs/remote/containers) extension.
+Ao usar o contêiner de desenvolvimento, certifique-se de ter [GitHub Codespaces](https://docs.github.com/codespaces/overview) habilitado em sua organização GitHub ou você pode iniciar o contêiner de desenvolvimento localmente com o [Visual Studio Extensão de contêineres remotos de código](https://code.visualstudio.com/docs/remote/containers).
 
-### Installation
+### Instalação
 
-This sample can be set up in a test or a non-test setup.
+Esta amostra pode ser configurada em uma configuração de teste ou sem teste.
 
 - [test set up]: In this case the Git PAT token is optional and a self-signed certificate is used. Walkthrough of this setup is found in the [install-test.md](docs/install-test.md) file.
 - [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
