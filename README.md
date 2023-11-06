@@ -46,19 +46,19 @@ Esta amostra pode ser configurada em uma configuração de teste ou sem teste.
 - [test set up]: In this case the Git PAT token is optional and a self-signed certificate is used. Walkthrough of this setup is found in the [install-test.md](docs/install-test.md) file.
 - [non-test set up]: In this case the Git PAT token is mandatory and a pfx certificate for your custom domain is used. Walkthrough of this setup is found in the [install-prod.md](docs/install-prod.md) file.
 
-### What you need to know about this setup
+### O que você precisa saber sobre esta configuração
 
-More info on how the terraform templates are build and how they operate can be found in the [docs](docs) folder of this repository. Best starting point is the [maintf.md](docs/maintf.md) file.
+Mais informações sobre como os modelos terraform são construídos e como funcionam podem ser encontradas na pasta [docs](docs) deste repositório. O melhor ponto de partida é o arquivo [maintf.md](docs/maintf.md).
 
-### Coming up
+### Chegando
 
-We are working on improving this sample. The ideas we have on improving:
+Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhorar:
 
-- Create Bicep templates for the same setup (in progress)
-- Make the database interchangeable for other types of databases (Cosmos DB as a first candidate)
-- Currently the apps in Azure Spring Apps are based on the Spring Petclinic sample, these apps should be better configurable.
+- Crie modelos Bicep para a mesma configuração (em andamento)
+- Tornar o banco de dados intercambiável para outros tipos de bancos de dados (Cosmos DB como primeiro candidato)
+- Atualmente os aplicativos no Azure Spring Apps são baseados no exemplo Spring Petclinic, esses aplicativos devem ser melhor configuráveis.
 
-## Resources
+## Recursos
 
 - [Azure Architecture Center: Multi-zone Azure Spring Apps reference architecture(coming up)](article coming up)
 - [Preserve the original HTTP host name between a reverse proxy and its back-end web application](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation)
