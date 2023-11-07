@@ -60,6 +60,6 @@ Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhora
 
 ## Recursos
 
-- [Azure Architecture Center: Multi-zone Azure Spring Apps reference architecture(coming up)](article coming up)
+- [Azure Architecture Center: arquitetura de referência de aplicativos Azure Spring multizona (em breve)](artigo em breve)
 - [Preserve the original HTTP host name between a reverse proxy and its back-end web application](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation)
 - A similar automated setup in multiple regions can be found in the [Azure Spring Apps multi region reference architecture](https://github.com/Azure-Samples/azure-spring-apps-multi-region) GitHub repository with more info in the [Deploy Azure Spring Apps to multiple regions](https://learn.microsoft.com/azure/architecture/reference-architectures/microservices/spring-apps-multi-region) architecture center article.
