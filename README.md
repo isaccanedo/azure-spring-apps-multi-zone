@@ -2,7 +2,7 @@
 
 Este exemplo contém um modelo Terraform que implanta um exemplo de trabalho da arquitetura de referência do centro de arquitetura do Azure: [Arquitetura de referência do Azure Spring Apps de várias zonas (em breve)] (em breve). A arquitetura de referência e o exemplo mostram como executar uma carga de trabalho do Azure Spring Apps em uma configuração de várias zonas. Isso permite maior disponibilidade da carga de trabalho.
 
-![Multi zone Spring Apps architecture diagram](./images/multi-zone-spring-apps-reference-architecture.png)
+![Diagrama de arquitetura Spring Apps multizona](./images/multi-zone-spring-apps-reference-architecture.png)
 
 Este exemplo também aplica uma configuração de proxy reverso adequada com [preservação do nome do host](https://learn.microsoft.com/azure/architecture/best-practices/host-name-preservation). Isso significa que os cookies e os redirecionamentos AAD funcionarão conforme o esperado.
 
