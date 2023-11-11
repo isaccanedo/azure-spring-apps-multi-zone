@@ -50,7 +50,7 @@ Esta amostra pode ser configurada em uma configuração de teste ou sem teste.
 
 Mais informações sobre como os modelos terraform são construídos e como funcionam podem ser encontradas na pasta [docs](docs) deste repositório. O melhor ponto de partida é o arquivo [maintf.md](docs/maintf.md).
 
-### Chegando
+### Exemplo
 
 Estamos trabalhando para melhorar esta amostra. As ideias que temos para melhorar:
 
